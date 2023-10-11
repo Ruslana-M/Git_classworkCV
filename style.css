@@ -1,0 +1,32 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.navbar{
+    height: 10%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.logo{
+    height: 100px;
+    
+}
+.logo img{
+    height: 100%;
+    border-radius: 50%;
+}
+.navlist{
+display: flex;
+justify-content: end;
+margin-right: 20px;
+align-items: center;
+gap: 20px;
+height: 100px;
+
+}
