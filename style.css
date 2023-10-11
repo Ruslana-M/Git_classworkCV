@@ -5,6 +5,10 @@
     box-sizing: border-box;
     list-style: none;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+}
 .navbar{
     height: 10%;
     width:100%;
@@ -32,29 +36,64 @@ height: 100px;
 
 }
 .mainContent{
-    height: 75%;
-    background-color: lightcoral;
-    display: flex;
     
-
+    height: 75%;
+    background-color: rgb(250, 233, 233);
 
 }
-.section{
+
+.BackgroundImg{
+   background-image: url("https://i.pinimg.com/originals/fe/5f/67/fe5f677b1627009c4b3e1c1c31dedf71.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: rgb(40, 34, 34);
+
+}
+.personal{
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
+    gap: 10px;
+    /* height:10%; */
 
 }
-.info img{
-    height: 20%;
-    width: 20%;
-    object-fit: cover;
+.about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    
+
 }
+button{
+    
+    background-color: rgb(180, 236, 180);
+    border-radius: 25px;
+    border: transparent;
+    box-shadow: 5px 5px 10px lightcyan;
+    padding: 15px 40px;
+    
+}
+
 footer{
     height: 15%;
     width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: rgb(20, 88, 88);
-    
+    background-color: rgb(236, 248, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
 }
